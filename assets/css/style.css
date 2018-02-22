@@ -1,6 +1,18 @@
+body {
+    color: #EE3E3E;
+    font-family: 'Permanent Marker', cursive, Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px black;
+}
 .backg {
 background: url('../images/happi.jpg');
 background-repeat: no-repeat;
 background-size: cover;
     
+}
+.sectionTitle {
+    font-size: 200%;
+}
+.mainTitle {
+    font-size: 300%;
+    text-align: center;
 }
