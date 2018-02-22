@@ -25,15 +25,41 @@
 </head>
 
 <body class="backg">
+  <div class="mainTitle">Battle of the Dragon Slayers!</div>
+  <div class="mainGame">
+    <!--This is where the characters are when waiting to be selected.-->
+    <div id="characterSection">
+      <div class="sectionName">Select Your Dragon Slayer!</div>
+    </div>
 
+    <!--Player Character section-->
+    <div id="selectedCharacterSection">
+      <div class="sectionTitle">Your Dragon Slayer</div>
+      <!--Where the player character will appear. -->
+      <div id="selectedCharacter">
+      </div>
 
+      <div id="ableToAttack">
+        <div class="sectionTitle">Enemies To Attack!</div>
+      </div>
+      
+      <div class="sectionTitle">Battlefield</div>
+      <div id="fightSection">
+        <button id="attackButton">Attack!</button>
+      </div>
 
-
-
-
-
-
-
+      <div id="action">
+        <div class="characterSection">
+          <div class="sectionTitle">Defender</div>
+          <!--This is where the opponent will show up. -->
+          <div id="defender"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--This is where game messages appear -->
+  <div id="messages"></div>
 </body>
 
 </html>
