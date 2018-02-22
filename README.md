@@ -1,2 +1,2 @@
 # week-4-game
-simple game built featuring jquery
+Simple Themed battle game built with JQuery
