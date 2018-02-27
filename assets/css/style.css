@@ -3,16 +3,44 @@ body {
     font-family: 'Permanent Marker', cursive, Arial, Helvetica, sans-serif;
     text-shadow: 3px 3px black;
 }
+
+img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
 .backg {
 background: url('../images/happi.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-    
 }
+
 .sectionTitle {
     font-size: 200%;
 }
+
 .mainTitle {
     font-size: 300%;
+    text-align: center;
+}
+
+.character {
+    display: inline-block;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.character-image {
+    padding: 3px, 16px, 3px, 16px;
+}
+
+.character-name {
+    text-align: center;
+}
+
+.character-health {
     text-align: center;
 }
