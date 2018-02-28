@@ -102,7 +102,7 @@ $(document).ready(function () {
                 //if there is no defender, the clicked enemy will become the defender.
                 if ($("#defender").children().length === 0) {
                     renderCharacters(Name, "#defender");
-                    $(this).hide;
+                    $(this).hide();
                 }
             });
         }
@@ -140,6 +140,7 @@ $(document).ready(function () {
             console.log(combatants);
             // Hide the character select div.
             $("#characterSection").hide();
+            
 
             // Then render our selected character and our combatants.
             renderCharacters(currSelectedCharacter, "#selectedCharacter");
